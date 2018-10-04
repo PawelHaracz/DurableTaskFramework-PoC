@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WindowsAzure.ServiceBus" Version="5.0.0" />
+    <PackageReference Include="DurableTask.AzureStorage" Version="1.2.2" />
+    <PackageReference Include="DurableTask.Emulator" Version="2.0.0.6" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+    <PackageReference Include="DurableTask.ServiceBus" Version="2.0.0.6" />
+    <PackageReference Include="DurableTask.Core" Version="2.0.0.6" />
+  </ItemGroup>
+
+</Project>
